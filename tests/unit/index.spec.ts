@@ -1,7 +1,7 @@
 import { Selector } from 'testcafe';
 
 fixture('Index page')
-    .page('http://localhost:1337/');
+    .page('../../index.html');
 
 test('Should contain a form field', async (t) => {
     const field = Selector('.hash');
@@ -13,6 +13,6 @@ test('Should contain a form field', async (t) => {
   
     await t.expect(field.exists).ok();
   });
-  test('Should send a GET request when submit button is clicked', async (t) => {
+  // test('Should send a GET request when submit button is clicked', async (t) => {
     // write code
-  });
+  // });

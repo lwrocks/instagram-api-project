@@ -7,9 +7,9 @@
     "test": "tests"
   },
   "scripts": {
-    "test:e2e": "testcafe chrome tests/e2e --app 'http-server demo/ -p 1337'",
-    "test:unit": "testcafe chrome tests/unit --app 'http-server demo/ -p 1337'",
-    "tests": "testcafe chrome tests/ --app 'http-server demo/ -p 1337'"
+    "test:e2e": "testcafe chrome tests/e2e",
+    "test:unit": "testcafe chrome tests/unit",
+    "tests": "testcafe chrome tests/"
   },
   "repository": {
     "type": "git",
