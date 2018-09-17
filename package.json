@@ -1,0 +1,28 @@
+{
+  "name": "instagram-api-project",
+  "version": "1.0.0",
+  "description": "Instagram API Project",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test:e2e": "testcafe chrome tests/e2e --app 'http-server demo/ -p 1337'",
+    "test:unit": "testcafe chrome tests/unit --app 'http-server demo/ -p 1337'",
+    "tests": "testcafe chrome tests/ --app 'http-server demo/ -p 1337'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwrocks/instagram-api-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lwrocks/instagram-api-project/issues"
+  },
+  "homepage": "https://github.com/lwrocks/instagram-api-project#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "testcafe": "^0.22.0"
+  }
+}
